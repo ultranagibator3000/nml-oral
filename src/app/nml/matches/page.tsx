@@ -1,5 +1,4 @@
 'use client'
-import { useState } from 'react'
 import { Footer } from '@/components/ui/footer';
 import { Header } from '@/components/ui/header';
 import { unbounded, unbounded_bold} from '@/components/ui/fonts';
