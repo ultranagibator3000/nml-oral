@@ -46,15 +46,6 @@ export const Header = () => {
               />
             </a>
           </div>
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              onClick={() => setMobileMenuOpen(true)}
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-            >
-              <span className="sr-only">Open main menu</span>
-            </button>
-          </div>
           <div className="hidden text-black lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className={`${unbounded_semibold.className} antialiased hover:text-yellow-400 dark:text-yellow-400 dark:hover:text-gray-500 text-base font-bold leading-6`}>
