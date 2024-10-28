@@ -1,12 +1,10 @@
 'use client'
 import { useState } from 'react'
-import Image from 'next/image'
 import { Footer } from '@/components/ui/footer';
 import { Header } from '@/components/ui/header';
-import { unbounded, unbounded_bold, unbounded_semibold } from '@/components/ui/fonts';
+import { unbounded, unbounded_bold} from '@/components/ui/fonts';
 
 export default function Matches() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <div className="dark:bg-black bg-white  min-h-screen flex flex-col">
       <Header />
