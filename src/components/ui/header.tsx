@@ -1,9 +1,6 @@
 'use client'
-import Head from 'next/head';
-import { useState } from 'react'
 import Image from 'next/image'
-import localFont from "next/font/local";
-import { Poppins, DM_Sans, Unbounded } from 'next/font/google'
+import { Unbounded } from 'next/font/google'
 import ThemeToggle from './dmtoggle';
 export const unbounded_bold = Unbounded({ 
     style: ['normal'],
