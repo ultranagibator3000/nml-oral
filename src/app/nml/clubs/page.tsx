@@ -2,11 +2,10 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import { Footer } from '@/components/ui/footer';
-import { unbounded,unbounded_bold,unbounded_semibold } from '@/components/ui/fonts';
+import { unbounded, unbounded_bold } from '@/components/ui/fonts';
 import { Header } from '@/components/ui/header';
 
 export default function Clubs() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <div className="dark:bg-black bg-white  min-h-screen flex flex-col">
       <Header />
