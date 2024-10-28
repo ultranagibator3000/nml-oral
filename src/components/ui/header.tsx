@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import { Unbounded } from 'next/font/google'
 import ThemeToggle from './dmtoggle';
 export const unbounded_bold = Unbounded({ 
@@ -24,7 +23,6 @@ const navigation = [
   ]
 
 export const Header = () => {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     return (
       <header className="sticky absolute dark:bg-black bg-white inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
