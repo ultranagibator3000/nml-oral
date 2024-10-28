@@ -27,7 +27,7 @@ export const Header = () => {
       <header className="sticky absolute dark:bg-black bg-white inset-x-0 top-0 z-50">
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
-            <a href="/nml" className="-m-1.5 p-1.5 flex flex-row gap-2">
+            <a href="/." className="-m-1.5 p-1.5 flex flex-row gap-2">
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
