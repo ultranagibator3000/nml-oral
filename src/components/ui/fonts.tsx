@@ -1,4 +1,4 @@
-import { Poppins, DM_Sans, Unbounded } from 'next/font/google'
+import { Unbounded } from 'next/font/google'
 
 export const unbounded_bold = Unbounded({ 
     style: ['normal'],
