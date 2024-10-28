@@ -84,8 +84,8 @@ export const Header = () => {
         </div>
       </nav>
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-50 bg-white dark:bg-black p-6 lg:hidden">
-          <div className="flex items-center justify-between">
+        <div className="fixed inset-0 z-50 bg-white dark:bg-black lg:hidden">
+          <div className="flex items-center justify-between p-4 md:p-6">
             <a href="/." className="-m-1.5 p-1.5 flex flex-row items-center gap-2">
               <span className="sr-only">Your Company</span>
               <img alt="" src="/naizablacklogo.png" className="h-6 w-auto" />
@@ -98,6 +98,7 @@ export const Header = () => {
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">Close menu</span>
+          
               <svg
                 className="h-6 w-6"
                 fill="none"
@@ -109,6 +110,7 @@ export const Header = () => {
               </svg>
             </button>
           </div>
+        
           <div className="mt-6">
             <nav className="space-y-4">
               {navigation.map((item) => (
@@ -121,6 +123,7 @@ export const Header = () => {
                   {item.name}
                 </a>
               ))}
+    
               <div className="mt-4 space-y-4">
                 <button
                   className={`${unbounded.className} w-full inline-flex items-center justify-center rounded-xl bg-white px-3 py-2 text-sm font-medium text-black ring-1 ring-inset ring-gray-300 dark:ring-gray-700 hover:ring-gray-500 dark:text-white dark:hover:ring-yellow-400 dark:hover:text-yellow-400`}
