@@ -18,7 +18,7 @@ export const unbounded_semibold = Unbounded({
   
 export const Footer = () => {
     return (
-        <footer className="bg-white dark:bg-black border-t dark:text-yellow-400 text-black mt-12 p-10 w-full">
+        <footer className="bg-white dark:bg-black border-t dark:text-yellow-400 text-black mt-12 p-8 w-full">
         <div className={`${unbounded_semibold.className} max-w-7xl mx-auto px-4 `}>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             <div className='flex  flex-col gap-12'>
