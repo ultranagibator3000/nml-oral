@@ -33,7 +33,7 @@ export const Footer = () => {
             </div>
             <div className="flex dark:  flex-col font-semibold gap-4">
               <a href="https://www.instagram.com/nml_oral" target="_blank" rel="noopener noreferrer" className="flex items-center dark:text-yellow-400 hover:text-gray-500 gap-2">
-                <Image
+                <img
                   src="/instagram.png"
                   alt="Instagram"
                   className="dark:hidden h-5 w-5"
@@ -41,7 +41,7 @@ export const Footer = () => {
                 Instagram
               </a>
               <a href="https://github.com/coderfromaksay/niscouncil/" target="_blank" rel="noopener noreferrer" className="flex items-center dark:text-yellow-400 hover:text-gray-500 gap-2">
-                <Image
+                <img
                   src="/github.png" 
                   alt="GitHub"
                   className="dark:hidden h-5 w-5"
