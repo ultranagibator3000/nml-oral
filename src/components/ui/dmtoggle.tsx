@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import { unbounded_semibold, unbounded, unbounded_bold } from './fonts';
+import {unbounded} from './fonts';
 export default function ThemeToggle() {
   const [theme, setTheme] = useState('light');
 
