@@ -2,7 +2,6 @@
 import Image from 'next/image'
 import { Footer } from '@/components/ui/footer';
 import { Header } from '@/components/ui/header';
-//import { unbounded_bold, unbounded_semibold } from '@/components/ui/fonts';
 
 export default function Example() {
   return (
