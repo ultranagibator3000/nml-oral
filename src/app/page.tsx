@@ -20,15 +20,15 @@ export default function Example() {
           </div>
         </div>
         <div className="p-6 md:p-12 justify-between w-full flex flex-col">
-          <h2 dark:text-yellow-400 antialiased leading-10 font-bold mt-8 tracking-tighter text-gray-900 text-3xl md:text-4xl lg:text-5xl`}>
+          <h2 className="dark:text-yellow-400 antialiased leading-10 font-bold mt-8 tracking-tighter text-gray-900 text-3xl md:text-4xl lg:text-5xl">
             About tournament
           </h2>
         </div>
         <div className="inline-block align-baseline p-6 md:p-12 space-y-8 lg:text-medium my-4 md:my-6">
-          <p dark:text-yellow-400 antialiased font-medium leading-8 text-black text-base md:text-lg w-full md:w-3/4 lg:w-1/2`}>
+          <p className="dark:text-yellow-400 antialiased font-medium leading-8 text-black text-base md:text-lg w-full md:w-3/4 lg:w-1/2">
             NIS Media League - школьный футбольный турнир для команд учеников, основанная в НИШ ФМН г. Алматы. Ученики сами основывают клуб и продвигают его с помощью трансферов. С 2024 года NML действует в НИШ ФМН г. Уральск под руководством президента и департамента спорта.
           </p>
-          <p dark:text-yellow-400 antialiased font-bold leading-8 font-medium text-black text-base md:text-lg w-full md:w-3/4 lg:w-96`}>
+          <p className="dark:text-yellow-400 antialiased font-bold leading-8 font-medium text-black text-base md:text-lg w-full md:w-3/4 lg:w-96">
             NML Oral - член ассоциации NIS Football Association. На данный момент данный проект запущен в 6-ти школах сети НИШ.
           </p>
         </div>
